@@ -1,6 +1,6 @@
 context:
   name: ccflow-http
-  version: "0.1.0"
+  version: "0.1.1"
   python_min: "3.11"
 
 package:
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/c/ccflow-http/ccflow_http-${{ version }}.tar.gz
-  sha256: fa4bd9193002964a6ad7289d5e1af019737bfdbb9773841c18ac7e7d63130e5f
+  sha256: 9de7781e4564f00d83b6828ece77d24cedd95fdb571be093a1923432cf61248d
 
 build:
   noarch: python

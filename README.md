@@ -42,31 +42,73 @@ conda config --add channels conda-forge
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge` channel has been enabled, `ccflow-http` can be installed with `conda`:
+How to use
+----------
+
+<details>
+<summary>With conda</summary>
 
 ```
 conda install ccflow-http
 ```
 
-or with `mamba`:
+</details>
+
+<details>
+<summary>With mamba</summary>
 
 ```
 mamba install ccflow-http
 ```
 
-It is possible to list all of the versions of `ccflow-http` available on your platform with `conda`:
+</details>
+
+<details>
+<summary>With pixi</summary>
+
+```
+# for adding to your local project
+pixi add ccflow-http
+# for installing globally
+pixi global install ccflow-http
+```
+
+</details>
+
+Search package versions
+-----------------------
+
+It is possible to list all of the versions of `ccflow-http` available on your platform:
+
+<details>
+<summary>With conda</summary>
 
 ```
 conda search ccflow-http --channel conda-forge
 ```
 
-or with `mamba`:
+</details>
+
+<details>
+<summary>With mamba</summary>
 
 ```
 mamba search ccflow-http --channel conda-forge
 ```
 
-Alternatively, `mamba repoquery` may provide more information:
+</details>
+
+<details>
+<summary>With pixi</summary>
+
+```
+pixi search ccflow-http --channel conda-forge
+```
+
+</details>
+
+<details>
+<summary>With mamba repoquery, which may provide more information</summary>
 
 ```
 # Search all versions available on your platform:
@@ -78,6 +120,8 @@ mamba repoquery whoneeds ccflow-http --channel conda-forge
 # List dependencies of `ccflow-http`:
 mamba repoquery depends ccflow-http --channel conda-forge
 ```
+
+</details>
 
 
 About conda-forge
