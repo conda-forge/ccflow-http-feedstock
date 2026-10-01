@@ -1,7 +1,6 @@
 context:
   name: ccflow-http
-  version: "0.1.1"
-  python_min: "3.11"
+  version: "0.2.0"
 
 package:
   name: ${{ name }}
@@ -9,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/c/ccflow-http/ccflow_http-${{ version }}.tar.gz
-  sha256: 9de7781e4564f00d83b6828ece77d24cedd95fdb571be093a1923432cf61248d
+  sha256: 980497b6c74baaea0ba6811156885d29b3640546335e067e7dba418ec4aaaf8c
 
 build:
   noarch: python
@@ -25,7 +24,7 @@ requirements:
     - python >=${{ python_min }}
     - ccflow >=0.8.5
     - ccflow-etl >=0.1.0
-    - httpx
+    - httpx2
     - jinja2
 
 tests:
@@ -38,9 +37,9 @@ tests:
         - "*"
 
 about:
-  homepage: https://github.com/timkpaine/ccflow-http
-  repository: https://github.com/timkpaine/ccflow-http
-  summary: ccflow-http
+  homepage: https://github.com/1kbgz/ccflow-http
+  repository: https://github.com/1kbgz/ccflow-http
+  summary: ccflow models for HTTP
   license: Apache-2.0
   license_file: LICENSE
 
