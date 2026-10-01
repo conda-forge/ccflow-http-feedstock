@@ -1,7 +1,6 @@
 context:
   name: ccflow-http
   version: "0.2.0"
-  python_min: "3.11"
 
 package:
   name: ${{ name }}
@@ -25,7 +24,7 @@ requirements:
     - python >=${{ python_min }}
     - ccflow >=0.8.5
     - ccflow-etl >=0.1.0
-    - httpx
+    - httpx2
     - jinja2
 
 tests:
@@ -38,9 +37,9 @@ tests:
         - "*"
 
 about:
-  homepage: https://github.com/timkpaine/ccflow-http
-  repository: https://github.com/timkpaine/ccflow-http
-  summary: ccflow-http
+  homepage: https://github.com/1kbgz/ccflow-http
+  repository: https://github.com/1kbgz/ccflow-http
+  summary: ccflow models for HTTP
   license: Apache-2.0
   license_file: LICENSE
 
