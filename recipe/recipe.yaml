@@ -23,7 +23,7 @@ requirements:
   run:
     - python >=${{ python_min }}
     - ccflow >=0.8.5
-    - ccflow-etl >=0.1.0
+    - ccflow-etl >=0.4.0
     - httpx2
     - jinja2
 
