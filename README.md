@@ -3,13 +3,13 @@ About ccflow-http-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/ccflow-http-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/timkpaine/ccflow-http
+Home: https://github.com/1kbgz/ccflow-http
 
 Package license: Apache-2.0
 
-Summary: ccflow-http
+Summary: ccflow models for HTTP
 
-Development: https://github.com/timkpaine/ccflow-http
+Development: https://github.com/1kbgz/ccflow-http
 
 Current build status
 ====================
